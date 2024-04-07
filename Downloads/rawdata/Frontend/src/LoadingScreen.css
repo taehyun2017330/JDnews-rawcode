@@ -1,0 +1,50 @@
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .spinner {
+    border: 4px solid #000; /* Initial border color */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: spin 1s linear infinite, color-shift 3s linear infinite;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes color-shift {
+    0% {
+      border-color: #FF0000; /* Red */
+      border-top-color: transparent;
+    }
+    25% {
+      border-color: #00FF00; /* Green */
+      border-top-color: transparent;
+    }
+    50% {
+      border-color: #0000FF; /* Blue */
+      border-top-color: transparent;
+    }
+    75% {
+      border-color: #FF00FF; /* Magenta */
+      border-top-color: transparent;
+    }
+    100% {
+      border-color: #FF0000; /* Red */
+      border-top-color: transparent;
+    }
+  }
+  

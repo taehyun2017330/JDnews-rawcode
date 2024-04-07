@@ -1,0 +1,28 @@
+.result-screen {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .result-section, .summary-section {
+    margin-bottom: 20px;
+    background-color: #f8f9fa; /* A light grey background */
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    margin-bottom: 30px;
+  }
+  
+  h3 {
+    color: #495057; /* A dark grey color */
+  }
+  
+  .button-container button {
+    margin: 0 10px; /* Spacing between buttons */
+  }
+  
+  .mt-3 {
+    margin-top: 30px; /* Spacing above the back button */
+  }
+  

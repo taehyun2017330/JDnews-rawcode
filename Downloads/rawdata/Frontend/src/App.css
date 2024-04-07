@@ -1,0 +1,80 @@
+.phone-screen {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+.photo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.phone-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+.main-logo {
+  width: 30%; /* Assuming the original size is considered 100%, setting it to 30% makes it 70% smaller */
+  display: block;
+  margin: 0 auto; /* Centers the logo */
+}
+.tip strong {
+  color: #000; /* Black color for bold text */
+  font-weight: bold; /* Ensure it's bold */
+}
+
+.tip u {
+  text-decoration: underline;
+  color: #007bff; /* Example: Bootstrap primary blue for underlined text */
+}
+
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.tip {
+  font-size: 19px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.selected-button {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.bottom-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+body {
+  margin: 0 auto;
+  max-width: 95%;
+}
+
+
+.logo {
+  width: 160px; /* 원하는 크기로 조절 */
+  margin-top: 5px; /* 상하 여백 조절 */
+}

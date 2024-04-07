@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/JDnews/static/css/main.e115607f.css",
+    "main.js": "/JDnews/static/js/main.bcada672.js",
+    "static/js/453.ff935552.chunk.js": "/JDnews/static/js/453.ff935552.chunk.js",
+    "index.html": "/JDnews/index.html",
+    "main.e115607f.css.map": "/JDnews/static/css/main.e115607f.css.map",
+    "main.bcada672.js.map": "/JDnews/static/js/main.bcada672.js.map",
+    "453.ff935552.chunk.js.map": "/JDnews/static/js/453.ff935552.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e115607f.css",
+    "static/js/main.bcada672.js"
+  ]
+}
